@@ -1,0 +1,26 @@
+#productsDiv {
+    flex-wrap: wrap;
+    display: flex;
+}
+
+.product-under {
+    display: flex;
+}
+
+.product-under>.product-item {
+    display: flex;
+    flex-direction: column;
+}
+
+.product-under>.product-item>.product-img {
+    flex: 1;
+}
+
+.title {
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    word-break: break-word;
+}
